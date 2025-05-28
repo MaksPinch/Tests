@@ -1,7 +1,7 @@
 import requests
 
 def create_folder(name):
-    yd_url = 'https://cloud-api.yandex.net/v1/disk/resources'
+    yd_url = 'your_token'
     token = 'y0__xC3krj5BxjblgMgwcDEqBK5Y1vHXzbZ5ivKTKLF9q7RKOxfaQ'
     params = {'path': name}
     headers = {'Authorization': f'OAuth {token}'}
