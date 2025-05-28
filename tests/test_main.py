@@ -2,7 +2,7 @@ from unittest import TestCase
 import pytest
 from main import check_auth, solve, discriminant, solution
 
-
+# first
 def test_successful_data():
     assert check_auth('admin', 'password') == 'Добро пожаловать'
 
@@ -57,3 +57,37 @@ def test_solve_with_params(lst, workday, expected):
 )
 def test_check_discriminant_solution_with_params(a, b, c, expected):
     assert solution(a, b, c) == expected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
